@@ -1,4 +1,4 @@
-[[HTTP 1.1]]
+[[HTTP]]
 
 REST (Representational State Transfer) использует стандартные HTTP‑методы для взаимодействия с ресурсами
 
