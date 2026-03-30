@@ -1,3 +1,7 @@
+https://ru.hexlet.io/blog/posts/zakon-de-morgana-i-drugie-pravila-logiki-v-programmirovanii
+
+https://ru.hexlet.io/blog/posts/chto-takoe-algoritmy
+
 #### Цикл программы
 
 последовательность команд (серия, тело цикла), которая может выполняться многократно до удовлетворения некоторого условия.

@@ -3,7 +3,9 @@
 ![[Pasted image 20260210194432.png]]
 # VS Code 
 
-
+- **Wallaby**
+- ...vscode
+- swagger ui
 
 ## Тестирование API с использованием HTTP-клиентов
 
