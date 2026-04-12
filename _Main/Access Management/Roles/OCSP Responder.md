@@ -1,4 +1,4 @@
-[[Authentification]]
+[[Federative Auth]]
 
 OCSP Responder — это сервер, который отвечает на запросы о статусе цифрового сертификата в режиме реального времени по протоколу OCSP (Online Certificate Status Protocol).
 

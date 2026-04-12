@@ -43,9 +43,9 @@ Stateless-аутентификация обычно используется в 
     - **`localStorage` / `sessionStorage`**: Удобно, но уязвимо для XSS-атак, так как доступно из JavaScript.
     - **`HttpOnly` Cookies**: Более безопасный вариант, так как cookie не доступны из JavaScript, что защищает от XSS. Однако требует дополнительной защиты от CSRF-атак (например, с помощью `SameSite` атрибута).
 - **Передача на сервер:** С каждым последующим запросом клиент отправляет токен на сервер в заголовке `Authorization` по схеме `Bearer`.
-    ```http
-    Authorization: Bearer <your_jwt_token>
-    ```
+```http
+Authorization: Bearer <your_jwt_token>
+```
 
 **Для API Key-Based аутентификации:**
 Состояние — это ключ API, который идентифицирует приложение-клиента.

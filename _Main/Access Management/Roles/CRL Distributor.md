@@ -1,4 +1,4 @@
-[[Authentification]]
+[[Federative Auth]]
 
 CRL Distributor (Точка Распространения Списка Отозванных Сертификатов) — это сервер, ответственный за публикацию и распространение Списка Отозванных Сертификатов (Certificate Revocation List, CRL).
 
