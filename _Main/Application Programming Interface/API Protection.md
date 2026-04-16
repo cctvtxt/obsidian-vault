@@ -1,5 +1,24 @@
 [[API]]
 
+Способность API противостоять злонамеренным и ошибочным воздействиям.
+
+
+|Характеристика|Описание|Угрозы|Меры защиты|
+|---|---|---|---|
+|**Аутентификация**|Подтверждение идентичности клиента|Credential stuffing, token theft|OAuth 2.0/OIDC, mTLS, short-lived JWT, MFA|
+|**Авторизация**|Контроль прав доступа к ресурсам|Privilege escalation, IDOR|RBAC/ABAC, scope validation, policy engines (OPA)|
+|**Input Validation**|Проверка и санитизация входных данных|SQLi, XSS, injection, mass assignment|Schema validation, allowlists, parameterized queries|
+|**Rate Limiting**|Ограничение частоты запросов|DDoS, brute force, scraping|Token bucket, sliding window, per-user/per-IP limits|
+|**Bot & Abuse Protection**|Выявление и блокировка вредоносных клиентов|Scraping, credential testing, API abuse|WAF, behavioral analysis, CAPTCHA, device fingerprinting|
+|**Data Protection**|Защита данных в транзите и покое|MITM, data leakage, insider threats|TLS 1.3+, field-level encryption, secrets management (Vault)|
+|**Secure Configuration**|Минимизация поверхности атаки|Misconfiguration, default credentials|CIS benchmarks, IaC scanning, secret rotation|
+
+
+
+
+
+
+
 Безопасность веб API — это совокупность практик и механизмов, направленных на защиту интерфейсов от несанкционированного доступа, утечек данных и атак. Она критична для любых сервисов, поскольку API часто выступает главным каналом обмена данными между клиентами и сервером и может стать целью злоумышленников.
 
 API Security позволяет
