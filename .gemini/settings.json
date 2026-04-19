@@ -1,5 +1,8 @@
 {
   "ui": {
     // "theme": "Dracula"
+  },
+  "general": {
+    "enableAutoUpdate": false
   }
 }
