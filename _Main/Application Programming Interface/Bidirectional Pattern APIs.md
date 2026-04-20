@@ -192,3 +192,8 @@ transport.datagrams.writable.getWriter().write(new Uint8Array([0x01, 0x02, 0xFF]
 
 // Сервер обрабатывает оба типа каналов через один endpoint /live
 ```
+
+
+
+
+
