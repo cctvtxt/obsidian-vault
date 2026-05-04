@@ -1,3 +1,10 @@
+структура 
+programming
+metaprogramming
+dsl
+program states: deadlock, livelock
+
+
 идея - ПОВТОРЯТЬ АЛГОРИТМЫ - WEBASSEMBLY  
 
 
