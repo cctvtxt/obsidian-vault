@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"8639edad80485007","x":-268,"y":48,"width":250,"height":60,"type":"text","text":"LDAP"},
+		{"id":"2829aaeb2aec37e3","x":480,"y":160,"width":250,"height":60,"type":"text","text":"Theory"}
+	],
+	"edges":[]
+}

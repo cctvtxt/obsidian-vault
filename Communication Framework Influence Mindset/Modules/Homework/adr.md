@@ -38,3 +38,86 @@ import { CronJob } from 'cron'; new CronJob('*/15 * * * *', async () => { const 
         "start:prod": "cross-env NODE_ENV=production PORT=3001 tsx watch src/main.ts",
 
 
+
+
+
+
+feat(user-service): implement CreateUser method
+
+feat(token-service): add mock GenerateTokens method
+
+///
+
+add fastify configuration
+
+feat(api-gateway): configure global pipes, filters, interceptors
+
+feat(common): add shared validation rules for user fields
+
+1 chore(common): add configuration module
+
+1.1 add api-gateway config
+
+bootstrap api-gatway service
+
+2 chore(api-gateway): add swagger module
+
+3 feat(auth-service): add password hashing
+
+4 feat(auth-service): add registration dto
+
+5 feat(auth-service): implement register rpc
+
+6 feat(auth-service): configure grpc server
+
+8 feat(api-gateway): add registration route
+
+9 feat(api-gateway): configure swagger
+
+10 feat(user-service): create user on registration
+
+7 feat(auth-service): add prisma migration file
+
+7 feat(user-service): add prisma migration file
+
+8 test(api-gateway): add integration registration tests
+
+а как разделять бд в зависимости от того какое выбрано NODE ENV
+
+//// add node-env
+
+//
+
+![[Pasted image 20260725162823.png]]
+
+authentication \ jwt-based-auth - 7 hours (passport etc)
+
+login, logout - add roles check in gateway
+
+authorization
+
+create-user - add authorization on gateway at this level
+
+read-user
+
+delete-user
+
+update-user
+
+..
+
+не забыть grpc-exception-filter 5 hours
+
+Проблемы по категориям
+
+
+db-reset-auth: cd auth-service && node -e "require('child_process').execSync('npx prisma db execute --stdin',{input:'DROP SCHEMA public CASCADE; CREATE SCHEMA public;',stdio:['pipe','inherit','inherit']})"
+
+db-reset-user: cd user-service && node -e "require('child_process').execSync('npx prisma db execute --stdin',{input:'DROP SCHEMA public CASCADE; CREATE SCHEMA public;',stdio:['pipe','inherit','inherit']})"
+
+db-reset: db-reset-auth db-reset-user
+
+
+
+
+# джобу чистить сессии
