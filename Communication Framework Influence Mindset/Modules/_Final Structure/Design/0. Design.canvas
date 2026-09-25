@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"1853f6b458b928a1","type":"text","text":"System Design","x":-8,"y":-462,"width":250,"height":60},
+		{"id":"45f393ac41bf1e57","type":"text","text":"Presentation","x":-8,"y":-800,"width":250,"height":60},
+		{"id":"a20643663628de24","type":"text","text":"Infrastructure","x":-710,"y":-238,"width":250,"height":60},
+		{"id":"4243690b92e2cbee","type":"text","text":"Persistence","x":489,"y":-190,"width":250,"height":60},
+		{"id":"e06129973b3f1d50","type":"file","file":"Cache/Pasted image 20260910184701.png","x":-500,"y":-667,"width":400,"height":205},
+		{"id":"f616cefe285bcebf","type":"text","text":"API Processing","x":-496,"y":-1045,"width":250,"height":60},
+		{"id":"9965eef745b08227","type":"text","text":"Content Delivery","x":243,"y":-1021,"width":250,"height":60},
+		{"id":"bccd1e29ec8ea9f5","type":"text","text":"CDN","x":690,"y":-1320,"width":250,"height":60},
+		{"id":"57b0935cfa731d58","type":"text","text":"Nginx","x":690,"y":-1223,"width":250,"height":60},
+		{"id":"47b43fc52b41d525","type":"text","text":"SPA","x":174,"y":-1301,"width":250,"height":60},
+		{"id":"fce09679cf930881","type":"text","text":"PWA","x":80,"y":-1223,"width":250,"height":60},
+		{"id":"d8500f2d977cbf3c","type":"text","text":"SSR","x":390,"y":-1163,"width":250,"height":60},
+		{"id":"8204e2a3505861be","type":"text","text":"🐛","x":-201,"y":-1223,"width":101,"height":60},
+		{"id":"04fb6b6910b27999","type":"text","text":"controller\nfirewall\noauth\nbackopressure\napi gateway x4\nload balancer\nreverce proxy\nToken service \nfederation api\nk8s","x":-820,"y":-1552,"width":250,"height":359},
+		{"id":"a670b62a23869a72","type":"text","text":"🛴","x":-472,"y":-1241,"width":101,"height":60},
+		{"id":"8ef8c7d5042b8bb8","type":"text","text":"data","x":289,"y":-5,"width":250,"height":60},
+		{"id":"2a37570ef9a751ca","type":"text","text":"messages","x":180,"y":102,"width":250,"height":60},
+		{"id":"ceaf51224e4181d1","type":"text","text":"cache","x":280,"y":240,"width":250,"height":60},
+		{"id":"c8e968f8505a2cbf","type":"text","text":"secrets","x":249,"y":375,"width":250,"height":60},
+		{"id":"dd1f61db7d72ce9b","type":"text","text":"images","x":289,"y":485,"width":250,"height":60},
+		{"id":"3b919261d244426f","type":"text","text":"env","x":548,"y":321,"width":250,"height":60},
+		{"id":"49dedea8dc999663","type":"text","text":"vault","x":548,"y":405,"width":250,"height":60},
+		{"id":"47e697496e208d70","type":"text","text":"logging\nvisualization\nconfigureation\nruntime\nsecurity\nscheduling\ncontracts","x":-750,"y":-30,"width":250,"height":515},
+		{"id":"84384c2f22a47033","type":"text","text":"sharding","x":760,"y":-35,"width":250,"height":60,"color":"4"},
+		{"id":"0315358dceafd6fe","type":"text","text":"cloudPG","x":760,"y":72,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"2d0975e4f9ffa085","fromNode":"1853f6b458b928a1","fromSide":"top","toNode":"45f393ac41bf1e57","toSide":"bottom"},
+		{"id":"cd733dc71b2718e8","fromNode":"1853f6b458b928a1","fromSide":"right","toNode":"4243690b92e2cbee","toSide":"left"},
+		{"id":"a1f3f4ed19618936","fromNode":"1853f6b458b928a1","fromSide":"left","toNode":"a20643663628de24","toSide":"right"},
+		{"id":"588c84d7c9022d8c","fromNode":"45f393ac41bf1e57","fromSide":"top","toNode":"f616cefe285bcebf","toSide":"bottom"},
+		{"id":"765589b51f8fc79f","fromNode":"45f393ac41bf1e57","fromSide":"top","toNode":"9965eef745b08227","toSide":"bottom"},
+		{"id":"c5a10239ec3fbe72","fromNode":"f616cefe285bcebf","fromSide":"top","toNode":"8204e2a3505861be","toSide":"bottom"},
+		{"id":"937351cb830f6595","fromNode":"f616cefe285bcebf","fromSide":"top","toNode":"a670b62a23869a72","toSide":"bottom"},
+		{"id":"20b5e55fab2054bf","fromNode":"8ef8c7d5042b8bb8","fromSide":"right","toNode":"84384c2f22a47033","toSide":"left"},
+		{"id":"9298959611820c25","fromNode":"8ef8c7d5042b8bb8","fromSide":"right","toNode":"0315358dceafd6fe","toSide":"left"}
+	]
+}

@@ -1,4 +1,4 @@
-[[NestJS]]
+[[_01_Main/NestJS/NestJS]]
 
 ![[Screenshot_5.png]]
 

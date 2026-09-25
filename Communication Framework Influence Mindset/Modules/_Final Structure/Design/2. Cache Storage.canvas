@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"5d7a0699ddec2171","type":"text","text":"Cahce Storage","x":-307,"y":-209,"width":250,"height":60},
+		{"id":"ec9b6e9a0a6c420e","type":"text","text":"level","x":-699,"y":-60,"width":250,"height":60},
+		{"id":"8345db7501b322c6","type":"text","text":"client","x":-839,"y":117,"width":250,"height":60},
+		{"id":"f8c65743c5744043","type":"text","text":"CDN","x":-921,"y":242,"width":250,"height":60},
+		{"id":"a40555aa40ca3866","type":"text","text":"app","x":-902,"y":338,"width":250,"height":60},
+		{"id":"985bdf030768a127","type":"text","text":"database","x":-954,"y":485,"width":250,"height":60},
+		{"id":"0ff2f8f9a79a8bdb","type":"text","text":"web server","x":-987,"y":621,"width":250,"height":60},
+		{"id":"798387d320ce0ca3","type":"text","text":"Problems","x":458,"y":-219,"width":250,"height":60},
+		{"id":"f2b7724e4cb7f474","type":"text","text":"Traid-off","x":73,"y":-570,"width":250,"height":60},
+		{"id":"f6fd08dc678f752b","type":"text","text":"Patterns","x":140,"y":212,"width":250,"height":60},
+		{"id":"c615276efaa6d6c7","x":560,"y":87,"width":250,"height":60,"type":"text","text":"Cache-Aside"}
+	],
+	"edges":[
+		{"id":"876e457ddace82ab","fromNode":"5d7a0699ddec2171","fromSide":"left","toNode":"ec9b6e9a0a6c420e","toSide":"top"},
+		{"id":"bfb0224fb3cf6e0a","fromNode":"5d7a0699ddec2171","fromSide":"bottom","toNode":"f6fd08dc678f752b","toSide":"left"},
+		{"id":"69de57e85d57871e","fromNode":"f6fd08dc678f752b","fromSide":"right","toNode":"c615276efaa6d6c7","toSide":"left"}
+	]
+}
